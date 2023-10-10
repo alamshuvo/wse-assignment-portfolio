@@ -23,6 +23,7 @@
 nav ul li {
     display: inline-block;
     padding: 30px;
+   
 }
 ul li a {
     text-decoration: none;
@@ -31,6 +32,8 @@ ul li a {
     color: darkmagenta;
     font-weight: bold;
     text-transform: capitalize;
+    transition: .9s;
+
 }
 
 .btn {
@@ -63,7 +66,8 @@ span {
 nav ul li a:hover {
     background-color: aquamarine;
     color: black;
-    transition: 0.4s;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 
