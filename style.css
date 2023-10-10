@@ -69,10 +69,65 @@ nav ul li a:hover {
     border-radius: 10px;
     padding: 20px;
 }
-
-
-
+.container {
+    padding: 90px 10%;
+    font-size: x-large;
+    font-family: cursive;
+}
+.newsletter form{
+    width: 380px;
+}
+.newsletter form input:first-child{
+   
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    
+}
+.newsletter form input:last-child{
+     display: inline-block;    
+     outline: none;
+     border: none;
+     padding:10px 30px;         
+     border-radius: 30px;
+    border: 2px solid red;
+    background-color: red;
+    color: black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 198.5px;
+    right: 273px;
+    transition: transform 2s;
+    }
+    .newsletter form input:last-child:hover{
+        transform: rotate(360deg) scale(1.5);
+        cursor: pointer;
+    }
 /* header area css end heare */
 
 /*about area css start here*/
+.about-wrapper img {
+    height: auto;
+    width: 480px;
+}
+.about-wrapper {
+    background-color: lavenderblush;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    
+}
+
+.about-area {
+    background-color: aliceblue;
+}
+.about-text{
+    padding:40px 40px;
+}
 /*about area css end here*/
+
+/*services area css end here*/
+/*services area css end here*/
