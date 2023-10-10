@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif,'josefin sans';
+    box-sizing: border-box;
+}
+/* header area css start heare */
+
+.header-area {
+    height: 100vh;
+    width: 100%;
+    background: url(images/main-background.jpg);
+    background-position: top left;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.header-wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+}
+ul li a {
+    text-decoration: none;
+    font-size: large;
+    font-family: cursive;
+    color: darkmagenta;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn {
+    text-decoration: none;
+    color: currentcolor;
+    font-size: larger;
+    font-family: ui-monospace;
+    background-color: burlywood;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: aquamarine;
+    transition: 0.4s;
+}
+h2.logo {
+    color: deeppink;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: cursive;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: black;
+    font-size: revert;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+nav ul li a:hover {
+    background-color: aquamarine;
+    color: black;
+    transition: 0.4s;
+}
+
+
+
+/* header area css end heare */
+
+/*about area css start here*/
+/*about area css end here*/
